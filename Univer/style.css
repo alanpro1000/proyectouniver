@@ -1,0 +1,148 @@
+html {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #0c5eae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo-header {
+    width: 160px;
+    height: auto;
+}
+
+.profile-btn {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    color: #f0f0f0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.name {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 180px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu ul li {
+    padding: 10px;
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu ul li a i {
+    margin-right: 5px;
+}
+
+.dropdown-menu ul li a span {
+    flex-grow: 1;
+}
+
+.dropdown-menu ul li:hover {
+    background-color: #f0f0f0;
+    color: #0c5eae;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+
+
+.side-bar {
+    width: 70px;
+    white-space: nowrap;
+    background-color: #1eb2b2;
+}
+
+.side-bar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar ul li {
+    padding: 10px;
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.side-bar ul li:hover {
+    background-color: #30d6d6;
+    border-radius: 10px;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.txt-sidebar {
+    display: none;
+    margin: 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.icon-sidebar {
+    font-size: 22px;
+}
