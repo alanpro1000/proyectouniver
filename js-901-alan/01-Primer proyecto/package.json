@@ -1,0 +1,14 @@
+{
+  "name": "hola",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto",
+  "main": "index.js",
+  "scripts": {
+    "inicio": "node index.js",
+    "saludo": "node hola.js",
+    "ejemplo": "Ejemplo de scripts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alansinx1",
+  "license": "ISC"
+}
